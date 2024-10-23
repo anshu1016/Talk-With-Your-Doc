@@ -2,10 +2,10 @@ import type { Metadata } from "next";
 import localFont from "next/font/local";
 //import "./globals.css";
 import { Providers } from "./providers";
-import { Inter as FontSans, Inter } from "next/font/google";
+import { Inter } from "next/font/google";
 
 const inter = Inter({ subsets: ["latin"] });
-
+console.log(inter);
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
   variable: "--font-geist-sans",

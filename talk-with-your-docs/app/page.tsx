@@ -15,7 +15,7 @@ export default function Home() {
   // const getDocs = useQuery(api.documents.getDocument);
   // const createDocument = useMutation(api.documents.createDocument);
   return (
-    <div className="">
+    <div className="bg-red-500">
       <Header />{" "}
     </div>
   );
